@@ -1,0 +1,1327 @@
+2023-07-15 12:13:03.763 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-15 12:13:04.588 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'CategoryTagsId'}" was not created on entity type '"CategoryTagQuestion (Dictionary<string, object>)"' as the properties are already covered by the index "{'CategoryTagsId', 'QuestionsId'}".
+2023-07-15 12:13:04.591 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserRole<long>"' as the properties are already covered by the index "{'UserId', 'RoleId'}".
+2023-07-15 12:13:04.591 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserToken<long>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}".
+2023-07-15 12:13:04.719 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."CategoryTagsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:13:04.719 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."QuestionsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:13:04.920 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "7.0.9" initialized '"DataContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"7.0.4+96806371445869d20be357993820cd4be366e145"' with options: "None"
+2023-07-15 12:13:04.934 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+2023-07-15 12:13:04.989 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (50ms).
+2023-07-15 12:13:04.990 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Migrations] Migrating using database '"datings-app"' on server '""'.
+2023-07-15 12:13:05.011 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:05.101 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] An error occurred using the connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:05.104 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:05.135 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] An error occurred using the connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:05.175 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'CategoryTagsId'}" was not created on entity type '"CategoryTagQuestion (Dictionary<string, object>)"' as the properties are already covered by the index "{'CategoryTagsId', 'QuestionsId'}".
+2023-07-15 12:13:05.176 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserRole<long>"' as the properties are already covered by the index "{'UserId', 'RoleId'}".
+2023-07-15 12:13:05.176 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserToken<long>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}".
+2023-07-15 12:13:05.184 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."CategoryTagsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:13:05.184 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."QuestionsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:13:05.205 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+2023-07-15 12:13:05.206 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (0ms).
+2023-07-15 12:13:05.206 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"postgres"' on server '""'.
+2023-07-15 12:13:05.352 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"postgres"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:05.360 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:13:05.367 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (7ms).
+2023-07-15 12:13:05.369 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (12ms).
+2023-07-15 12:13:05.376 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE \"datings-app\";"
+2023-07-15 12:13:06.137 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("762"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE \"datings-app\";"
+2023-07-15 12:13:06.139 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"postgres"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.148 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"postgres"' on server '""' (4ms).
+2023-07-15 12:13:06.150 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database '"postgres"' on server '""'.
+2023-07-15 12:13:06.151 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database '"postgres"' on server '""' (0ms).
+2023-07-15 12:13:06.152 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:06.205 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.206 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.206 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:13:06.292 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:13:06.292 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:13:06.292 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:13:06.292 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:06.338 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.338 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);"
+2023-07-15 12:13:06.349 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);"
+2023-07-15 12:13:06.350 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.352 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (2ms).
+2023-07-15 12:13:06.353 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:06.386 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.386 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.386 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:13:06.389 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteScalar"'.
+2023-07-15 12:13:06.390 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteScalar"' (0ms).
+2023-07-15 12:13:06.390 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteScalar"' (0ms).
+2023-07-15 12:13:06.390 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:06.390 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.391 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:13:06.408 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:13:06.408 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.409 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:13:06.411 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:13:06.411 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:13:06.411 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:13:06.411 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:06.411 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.412 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2023-07-15 12:13:06.414 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2023-07-15 12:13:06.416 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.419 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5432"' is being disposed after spending 3ms reading results.
+2023-07-15 12:13:06.419 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.419 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:13:06.451 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Migrations] Applying migration '"20230425214149_AddUsers"'.
+2023-07-15 12:13:06.510 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:13:06.510 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.512 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:13:06.517 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:13:06.518 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:13:06.518 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:13:06.519 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:13:06.519 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetRoles\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Name\" character varying(256) NULL,
+    \"NormalizedName\" character varying(256) NULL,
+    \"ConcurrencyStamp\" text NULL,
+    CONSTRAINT \"PK_AspNetRoles\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:13:06.530 +03:00 [ERROR] [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetRoles\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Name\" character varying(256) NULL,
+    \"NormalizedName\" character varying(256) NULL,
+    \"ConcurrencyStamp\" text NULL,
+    CONSTRAINT \"PK_AspNetRoles\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:13:06.576 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:13:06.577 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5432"'.
+2023-07-15 12:13:06.577 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:13.971 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-15 12:14:14.658 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'CategoryTagsId'}" was not created on entity type '"CategoryTagQuestion (Dictionary<string, object>)"' as the properties are already covered by the index "{'CategoryTagsId', 'QuestionsId'}".
+2023-07-15 12:14:14.660 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserRole<long>"' as the properties are already covered by the index "{'UserId', 'RoleId'}".
+2023-07-15 12:14:14.661 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserToken<long>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}".
+2023-07-15 12:14:14.767 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."CategoryTagsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:14:14.767 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."QuestionsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:14:14.951 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "7.0.9" initialized '"DataContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"7.0.4+96806371445869d20be357993820cd4be366e145"' with options: "None"
+2023-07-15 12:14:14.960 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+2023-07-15 12:14:15.002 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (38ms).
+2023-07-15 12:14:15.003 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Migrations] Migrating using database '"datings-app"' on server '""'.
+2023-07-15 12:14:15.019 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:15.113 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] An error occurred using the connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:15.115 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:15.150 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] An error occurred using the connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:15.185 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'CategoryTagsId'}" was not created on entity type '"CategoryTagQuestion (Dictionary<string, object>)"' as the properties are already covered by the index "{'CategoryTagsId', 'QuestionsId'}".
+2023-07-15 12:14:15.185 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserRole<long>"' as the properties are already covered by the index "{'UserId', 'RoleId'}".
+2023-07-15 12:14:15.185 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserToken<long>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}".
+2023-07-15 12:14:15.193 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."CategoryTagsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:14:15.193 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."QuestionsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:14:15.213 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+2023-07-15 12:14:15.214 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (0ms).
+2023-07-15 12:14:15.214 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"postgres"' on server '""'.
+2023-07-15 12:14:15.358 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"postgres"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:15.366 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:15.372 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (6ms).
+2023-07-15 12:14:15.373 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (11ms).
+2023-07-15 12:14:15.379 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE \"datings-app\";"
+2023-07-15 12:14:16.100 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("720"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE \"datings-app\";"
+2023-07-15 12:14:16.102 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"postgres"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.110 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"postgres"' on server '""' (4ms).
+2023-07-15 12:14:16.112 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database '"postgres"' on server '""'.
+2023-07-15 12:14:16.112 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database '"postgres"' on server '""' (0ms).
+2023-07-15 12:14:16.113 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.160 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.160 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.161 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.228 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.228 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.228 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.228 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.275 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.275 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);"
+2023-07-15 12:14:16.286 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);"
+2023-07-15 12:14:16.286 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.288 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (1ms).
+2023-07-15 12:14:16.289 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.319 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.319 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.319 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.322 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteScalar"'.
+2023-07-15 12:14:16.322 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteScalar"' (0ms).
+2023-07-15 12:14:16.322 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteScalar"' (0ms).
+2023-07-15 12:14:16.322 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.322 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.323 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:14:16.338 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:14:16.338 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.338 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.341 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:16.341 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:16.341 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:16.341 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.341 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.341 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2023-07-15 12:14:16.343 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2023-07-15 12:14:16.345 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.348 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 3ms reading results.
+2023-07-15 12:14:16.348 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.348 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.374 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Migrations] Applying migration '"20230425214149_AddUsers"'.
+2023-07-15 12:14:16.417 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.417 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.420 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:14:16.424 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:14:16.425 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.426 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.426 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.426 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetRoles\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Name\" character varying(256) NULL,
+    \"NormalizedName\" character varying(256) NULL,
+    \"ConcurrencyStamp\" text NULL,
+    CONSTRAINT \"PK_AspNetRoles\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:14:16.433 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetRoles\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Name\" character varying(256) NULL,
+    \"NormalizedName\" character varying(256) NULL,
+    \"ConcurrencyStamp\" text NULL,
+    CONSTRAINT \"PK_AspNetRoles\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:14:16.434 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.434 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.434 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.434 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUsers\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"FirstName\" text NOT NULL,
+    \"LastName\" text NOT NULL,
+    \"MiddleName\" text NULL,
+    \"RefreshToken\" text NULL,
+    \"RefreshTokenExpiryTime\" timestamp with time zone NOT NULL,
+    \"NotificationsEnabled\" boolean NOT NULL,
+    \"UserName\" character varying(256) NULL,
+    \"NormalizedUserName\" character varying(256) NULL,
+    \"Email\" character varying(256) NULL,
+    \"NormalizedEmail\" character varying(256) NULL,
+    \"EmailConfirmed\" boolean NOT NULL,
+    \"PasswordHash\" text NULL,
+    \"SecurityStamp\" text NULL,
+    \"ConcurrencyStamp\" text NULL,
+    \"PhoneNumber\" text NULL,
+    \"PhoneNumberConfirmed\" boolean NOT NULL,
+    \"TwoFactorEnabled\" boolean NOT NULL,
+    \"LockoutEnd\" timestamp with time zone NULL,
+    \"LockoutEnabled\" boolean NOT NULL,
+    \"AccessFailedCount\" integer NOT NULL,
+    CONSTRAINT \"PK_AspNetUsers\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:14:16.441 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUsers\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"FirstName\" text NOT NULL,
+    \"LastName\" text NOT NULL,
+    \"MiddleName\" text NULL,
+    \"RefreshToken\" text NULL,
+    \"RefreshTokenExpiryTime\" timestamp with time zone NOT NULL,
+    \"NotificationsEnabled\" boolean NOT NULL,
+    \"UserName\" character varying(256) NULL,
+    \"NormalizedUserName\" character varying(256) NULL,
+    \"Email\" character varying(256) NULL,
+    \"NormalizedEmail\" character varying(256) NULL,
+    \"EmailConfirmed\" boolean NOT NULL,
+    \"PasswordHash\" text NULL,
+    \"SecurityStamp\" text NULL,
+    \"ConcurrencyStamp\" text NULL,
+    \"PhoneNumber\" text NULL,
+    \"PhoneNumberConfirmed\" boolean NOT NULL,
+    \"TwoFactorEnabled\" boolean NOT NULL,
+    \"LockoutEnd\" timestamp with time zone NULL,
+    \"LockoutEnabled\" boolean NOT NULL,
+    \"AccessFailedCount\" integer NOT NULL,
+    CONSTRAINT \"PK_AspNetUsers\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:14:16.441 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.441 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.441 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.441 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetRoleClaims\" (
+    \"Id\" integer GENERATED BY DEFAULT AS IDENTITY,
+    \"RoleId\" bigint NOT NULL,
+    \"ClaimType\" text NULL,
+    \"ClaimValue\" text NULL,
+    CONSTRAINT \"PK_AspNetRoleClaims\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_AspNetRoleClaims_AspNetRoles_RoleId\" FOREIGN KEY (\"RoleId\") REFERENCES \"AspNetRoles\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.449 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetRoleClaims\" (
+    \"Id\" integer GENERATED BY DEFAULT AS IDENTITY,
+    \"RoleId\" bigint NOT NULL,
+    \"ClaimType\" text NULL,
+    \"ClaimValue\" text NULL,
+    CONSTRAINT \"PK_AspNetRoleClaims\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_AspNetRoleClaims_AspNetRoles_RoleId\" FOREIGN KEY (\"RoleId\") REFERENCES \"AspNetRoles\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.449 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.449 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.449 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.449 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserClaims\" (
+    \"Id\" integer GENERATED BY DEFAULT AS IDENTITY,
+    \"UserId\" bigint NOT NULL,
+    \"ClaimType\" text NULL,
+    \"ClaimValue\" text NULL,
+    CONSTRAINT \"PK_AspNetUserClaims\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_AspNetUserClaims_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.457 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserClaims\" (
+    \"Id\" integer GENERATED BY DEFAULT AS IDENTITY,
+    \"UserId\" bigint NOT NULL,
+    \"ClaimType\" text NULL,
+    \"ClaimValue\" text NULL,
+    CONSTRAINT \"PK_AspNetUserClaims\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_AspNetUserClaims_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.457 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.457 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.457 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.457 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserLogins\" (
+    \"LoginProvider\" text NOT NULL,
+    \"ProviderKey\" text NOT NULL,
+    \"ProviderDisplayName\" text NULL,
+    \"UserId\" bigint NOT NULL,
+    CONSTRAINT \"PK_AspNetUserLogins\" PRIMARY KEY (\"LoginProvider\", \"ProviderKey\"),
+    CONSTRAINT \"FK_AspNetUserLogins_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.464 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserLogins\" (
+    \"LoginProvider\" text NOT NULL,
+    \"ProviderKey\" text NOT NULL,
+    \"ProviderDisplayName\" text NULL,
+    \"UserId\" bigint NOT NULL,
+    CONSTRAINT \"PK_AspNetUserLogins\" PRIMARY KEY (\"LoginProvider\", \"ProviderKey\"),
+    CONSTRAINT \"FK_AspNetUserLogins_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.464 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.464 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.464 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.464 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserRoles\" (
+    \"UserId\" bigint NOT NULL,
+    \"RoleId\" bigint NOT NULL,
+    CONSTRAINT \"PK_AspNetUserRoles\" PRIMARY KEY (\"UserId\", \"RoleId\"),
+    CONSTRAINT \"FK_AspNetUserRoles_AspNetRoles_RoleId\" FOREIGN KEY (\"RoleId\") REFERENCES \"AspNetRoles\" (\"Id\") ON DELETE CASCADE,
+    CONSTRAINT \"FK_AspNetUserRoles_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.468 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserRoles\" (
+    \"UserId\" bigint NOT NULL,
+    \"RoleId\" bigint NOT NULL,
+    CONSTRAINT \"PK_AspNetUserRoles\" PRIMARY KEY (\"UserId\", \"RoleId\"),
+    CONSTRAINT \"FK_AspNetUserRoles_AspNetRoles_RoleId\" FOREIGN KEY (\"RoleId\") REFERENCES \"AspNetRoles\" (\"Id\") ON DELETE CASCADE,
+    CONSTRAINT \"FK_AspNetUserRoles_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.468 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.468 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.468 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.468 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserTokens\" (
+    \"UserId\" bigint NOT NULL,
+    \"LoginProvider\" text NOT NULL,
+    \"Name\" text NOT NULL,
+    \"Value\" text NULL,
+    CONSTRAINT \"PK_AspNetUserTokens\" PRIMARY KEY (\"UserId\", \"LoginProvider\", \"Name\"),
+    CONSTRAINT \"FK_AspNetUserTokens_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.475 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AspNetUserTokens\" (
+    \"UserId\" bigint NOT NULL,
+    \"LoginProvider\" text NOT NULL,
+    \"Name\" text NOT NULL,
+    \"Value\" text NULL,
+    CONSTRAINT \"PK_AspNetUserTokens\" PRIMARY KEY (\"UserId\", \"LoginProvider\", \"Name\"),
+    CONSTRAINT \"FK_AspNetUserTokens_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.475 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.475 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.475 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.475 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetRoleClaims_RoleId\" ON \"AspNetRoleClaims\" (\"RoleId\");"
+2023-07-15 12:14:16.477 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetRoleClaims_RoleId\" ON \"AspNetRoleClaims\" (\"RoleId\");"
+2023-07-15 12:14:16.478 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.478 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.478 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.478 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX \"RoleNameIndex\" ON \"AspNetRoles\" (\"NormalizedName\");"
+2023-07-15 12:14:16.480 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX \"RoleNameIndex\" ON \"AspNetRoles\" (\"NormalizedName\");"
+2023-07-15 12:14:16.480 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.480 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.480 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.480 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetUserClaims_UserId\" ON \"AspNetUserClaims\" (\"UserId\");"
+2023-07-15 12:14:16.482 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetUserClaims_UserId\" ON \"AspNetUserClaims\" (\"UserId\");"
+2023-07-15 12:14:16.482 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.482 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.482 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.482 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetUserLogins_UserId\" ON \"AspNetUserLogins\" (\"UserId\");"
+2023-07-15 12:14:16.485 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetUserLogins_UserId\" ON \"AspNetUserLogins\" (\"UserId\");"
+2023-07-15 12:14:16.485 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.485 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.485 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.485 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetUserRoles_RoleId\" ON \"AspNetUserRoles\" (\"RoleId\");"
+2023-07-15 12:14:16.488 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AspNetUserRoles_RoleId\" ON \"AspNetUserRoles\" (\"RoleId\");"
+2023-07-15 12:14:16.488 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.488 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.488 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.489 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"EmailIndex\" ON \"AspNetUsers\" (\"NormalizedEmail\");"
+2023-07-15 12:14:16.491 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"EmailIndex\" ON \"AspNetUsers\" (\"NormalizedEmail\");"
+2023-07-15 12:14:16.491 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.491 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.491 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.491 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX \"UserNameIndex\" ON \"AspNetUsers\" (\"NormalizedUserName\");"
+2023-07-15 12:14:16.494 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX \"UserNameIndex\" ON \"AspNetUsers\" (\"NormalizedUserName\");"
+2023-07-15 12:14:16.494 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.494 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.494 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.494 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230425214149_AddUsers', '7.0.9');"
+2023-07-15 12:14:16.495 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230425214149_AddUsers', '7.0.9');"
+2023-07-15 12:14:16.497 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+2023-07-15 12:14:16.501 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+2023-07-15 12:14:16.504 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:14:16.504 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.504 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.504 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Migrations] Applying migration '"20230425215830_AddBalancesAndQuestions"'.
+2023-07-15 12:14:16.527 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.527 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.528 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:14:16.528 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:14:16.528 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.528 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.528 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.528 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"BalanceHistories\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Amount\" numeric NOT NULL,
+    \"Type\" integer NOT NULL,
+    \"UserId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_BalanceHistories\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_BalanceHistories_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.536 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"BalanceHistories\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Amount\" numeric NOT NULL,
+    \"Type\" integer NOT NULL,
+    \"UserId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_BalanceHistories\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_BalanceHistories_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"CategoryTags\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Name\" text NOT NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_CategoryTags\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:14:16.543 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"CategoryTags\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Name\" text NOT NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_CategoryTags\" PRIMARY KEY (\"Id\")
+);"
+2023-07-15 12:14:16.544 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.544 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.544 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.544 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Questions\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Content\" text NOT NULL,
+    \"UserId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_Questions\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_Questions_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.550 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Questions\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Content\" text NOT NULL,
+    \"UserId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_Questions\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_Questions_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.550 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.551 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.551 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.551 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"UserBalances\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Amount\" numeric NOT NULL,
+    \"UserId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_UserBalances\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_UserBalances_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.558 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"UserBalances\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Amount\" numeric NOT NULL,
+    \"UserId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_UserBalances\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_UserBalances_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.558 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.558 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.558 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.558 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"CategoryTagQuestion\" (
+    \"CategoryTagsId\" bigint NOT NULL,
+    \"QuestionsId\" bigint NOT NULL,
+    CONSTRAINT \"PK_CategoryTagQuestion\" PRIMARY KEY (\"CategoryTagsId\", \"QuestionsId\"),
+    CONSTRAINT \"FK_CategoryTagQuestion_CategoryTags_CategoryTagsId\" FOREIGN KEY (\"CategoryTagsId\") REFERENCES \"CategoryTags\" (\"Id\") ON DELETE CASCADE,
+    CONSTRAINT \"FK_CategoryTagQuestion_Questions_QuestionsId\" FOREIGN KEY (\"QuestionsId\") REFERENCES \"Questions\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.562 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"CategoryTagQuestion\" (
+    \"CategoryTagsId\" bigint NOT NULL,
+    \"QuestionsId\" bigint NOT NULL,
+    CONSTRAINT \"PK_CategoryTagQuestion\" PRIMARY KEY (\"CategoryTagsId\", \"QuestionsId\"),
+    CONSTRAINT \"FK_CategoryTagQuestion_CategoryTags_CategoryTagsId\" FOREIGN KEY (\"CategoryTagsId\") REFERENCES \"CategoryTags\" (\"Id\") ON DELETE CASCADE,
+    CONSTRAINT \"FK_CategoryTagQuestion_Questions_QuestionsId\" FOREIGN KEY (\"QuestionsId\") REFERENCES \"Questions\" (\"Id\") ON DELETE CASCADE
+);"
+2023-07-15 12:14:16.562 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.562 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.562 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.562 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_BalanceHistories_UserId\" ON \"BalanceHistories\" (\"UserId\");"
+2023-07-15 12:14:16.565 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_BalanceHistories_UserId\" ON \"BalanceHistories\" (\"UserId\");"
+2023-07-15 12:14:16.565 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.565 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.565 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.565 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_CategoryTagQuestion_QuestionsId\" ON \"CategoryTagQuestion\" (\"QuestionsId\");"
+2023-07-15 12:14:16.567 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_CategoryTagQuestion_QuestionsId\" ON \"CategoryTagQuestion\" (\"QuestionsId\");"
+2023-07-15 12:14:16.567 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.568 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.568 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.568 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_Questions_UserId\" ON \"Questions\" (\"UserId\");"
+2023-07-15 12:14:16.570 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_Questions_UserId\" ON \"Questions\" (\"UserId\");"
+2023-07-15 12:14:16.570 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.570 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.570 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.570 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_UserBalances_UserId\" ON \"UserBalances\" (\"UserId\");"
+2023-07-15 12:14:16.573 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_UserBalances_UserId\" ON \"UserBalances\" (\"UserId\");"
+2023-07-15 12:14:16.573 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.573 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.573 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.573 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230425215830_AddBalancesAndQuestions', '7.0.9');"
+2023-07-15 12:14:16.573 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230425215830_AddBalancesAndQuestions', '7.0.9');"
+2023-07-15 12:14:16.574 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+2023-07-15 12:14:16.575 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+2023-07-15 12:14:16.575 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:14:16.575 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.575 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.575 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Migrations] Applying migration '"20230425220404_AddAnswers"'.
+2023-07-15 12:14:16.596 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.596 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.596 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:14:16.596 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:14:16.597 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.597 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.597 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.597 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Answers\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Content\" text NOT NULL,
+    \"MarkedAsTheBest\" boolean NOT NULL,
+    \"UserId\" bigint NULL,
+    \"QuestionId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_Answers\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_Answers_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\"),
+    CONSTRAINT \"FK_Answers_Questions_QuestionId\" FOREIGN KEY (\"QuestionId\") REFERENCES \"Questions\" (\"Id\")
+);"
+2023-07-15 12:14:16.605 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"Answers\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Content\" text NOT NULL,
+    \"MarkedAsTheBest\" boolean NOT NULL,
+    \"UserId\" bigint NULL,
+    \"QuestionId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_Answers\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_Answers_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\"),
+    CONSTRAINT \"FK_Answers_Questions_QuestionId\" FOREIGN KEY (\"QuestionId\") REFERENCES \"Questions\" (\"Id\")
+);"
+2023-07-15 12:14:16.605 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.605 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.605 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.605 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_Answers_QuestionId\" ON \"Answers\" (\"QuestionId\");"
+2023-07-15 12:14:16.607 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_Answers_QuestionId\" ON \"Answers\" (\"QuestionId\");"
+2023-07-15 12:14:16.608 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.608 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.608 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.608 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_Answers_UserId\" ON \"Answers\" (\"UserId\");"
+2023-07-15 12:14:16.610 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_Answers_UserId\" ON \"Answers\" (\"UserId\");"
+2023-07-15 12:14:16.610 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.611 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.611 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.611 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230425220404_AddAnswers', '7.0.9');"
+2023-07-15 12:14:16.611 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230425220404_AddAnswers', '7.0.9');"
+2023-07-15 12:14:16.611 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+2023-07-15 12:14:16.612 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+2023-07-15 12:14:16.612 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:14:16.612 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.612 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.612 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Migrations] Applying migration '"20230506203821_AddComments"'.
+2023-07-15 12:14:16.634 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.634 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.634 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:14:16.634 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:14:16.634 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.634 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.635 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.635 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""ALTER TABLE \"Questions\" ADD \"Price\" numeric NOT NULL DEFAULT 0.0;"
+2023-07-15 12:14:16.638 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""ALTER TABLE \"Questions\" ADD \"Price\" numeric NOT NULL DEFAULT 0.0;"
+2023-07-15 12:14:16.638 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.638 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.639 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.639 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AnswerComments\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Content\" text NOT NULL,
+    \"UserId\" bigint NULL,
+    \"AnswerId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_AnswerComments\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_AnswerComments_Answers_AnswerId\" FOREIGN KEY (\"AnswerId\") REFERENCES \"Answers\" (\"Id\"),
+    CONSTRAINT \"FK_AnswerComments_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.646 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"AnswerComments\" (
+    \"Id\" bigint GENERATED BY DEFAULT AS IDENTITY,
+    \"Content\" text NOT NULL,
+    \"UserId\" bigint NULL,
+    \"AnswerId\" bigint NULL,
+    \"CreatedAt\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_AnswerComments\" PRIMARY KEY (\"Id\"),
+    CONSTRAINT \"FK_AnswerComments_Answers_AnswerId\" FOREIGN KEY (\"AnswerId\") REFERENCES \"Answers\" (\"Id\"),
+    CONSTRAINT \"FK_AnswerComments_AspNetUsers_UserId\" FOREIGN KEY (\"UserId\") REFERENCES \"AspNetUsers\" (\"Id\")
+);"
+2023-07-15 12:14:16.646 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.646 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.646 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.646 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AnswerComments_AnswerId\" ON \"AnswerComments\" (\"AnswerId\");"
+2023-07-15 12:14:16.649 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AnswerComments_AnswerId\" ON \"AnswerComments\" (\"AnswerId\");"
+2023-07-15 12:14:16.649 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.649 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.649 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.649 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AnswerComments_UserId\" ON \"AnswerComments\" (\"UserId\");"
+2023-07-15 12:14:16.651 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX \"IX_AnswerComments_UserId\" ON \"AnswerComments\" (\"UserId\");"
+2023-07-15 12:14:16.651 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.652 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.652 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.652 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230506203821_AddComments', '7.0.9');"
+2023-07-15 12:14:16.652 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230506203821_AddComments', '7.0.9');"
+2023-07-15 12:14:16.652 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+2023-07-15 12:14:16.653 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+2023-07-15 12:14:16.653 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:14:16.653 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.653 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.653 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Migrations] Applying migration '"20230508133403_AddPhoto"'.
+2023-07-15 12:14:16.673 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.674 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.674 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:14:16.674 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:14:16.674 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.674 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.674 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.674 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""ALTER TABLE \"AspNetUsers\" ADD \"Photo\" text NULL;"
+2023-07-15 12:14:16.675 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""ALTER TABLE \"AspNetUsers\" ADD \"Photo\" text NULL;"
+2023-07-15 12:14:16.675 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteNonQuery"'.
+2023-07-15 12:14:16.675 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.675 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteNonQuery"' (0ms).
+2023-07-15 12:14:16.675 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230508133403_AddPhoto', '7.0.9');"
+2023-07-15 12:14:16.675 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20230508133403_AddPhoto', '7.0.9');"
+2023-07-15 12:14:16.675 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+2023-07-15 12:14:16.676 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+2023-07-15 12:14:16.676 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:14:16.676 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.676 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.725 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: "
+"'"DbSet<IdentityRole<long>>()
+    .Any()"'
+2023-07-15 12:14:16.890 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM AspNetRoles AS a)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Datings.Api.Data.DataContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()"'
+2023-07-15 12:14:16.911 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:16.911 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:16.911 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:16.911 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.911 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.911 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetRoles\" AS a)"
+2023-07-15 12:14:16.913 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetRoles\" AS a)"
+2023-07-15 12:14:16.918 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.918 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 4ms reading results.
+2023-07-15 12:14:16.918 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.918 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.920 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:16.920 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:16.920 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:16.920 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:16.920 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.920 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetRoles\" AS a)"
+2023-07-15 12:14:16.921 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetRoles\" AS a)"
+2023-07-15 12:14:16.921 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.921 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:16.921 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:16.921 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:16.998 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context '"DataContext"' started tracking '"IdentityRole"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.000 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context '"DataContext"' started tracking '"IdentityRole"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.000 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context '"DataContext"' started tracking '"IdentityRole"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.003 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] SaveChanges starting for '"DataContext"'.
+2023-07-15 12:14:17.007 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges starting for '"DataContext"'.
+2023-07-15 12:14:17.016 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges completed for '"DataContext"'.
+2023-07-15 12:14:17.079 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] Executing 3 update commands as a batch.
+2023-07-15 12:14:17.087 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.090 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.091 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:14:17.093 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:14:17.098 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.098 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.102 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (3ms).
+2023-07-15 12:14:17.105 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@p0='?' (DbType = Int64), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = Int64), @p5='?', @p6='?', @p7='?', @p8='?' (DbType = Int64), @p9='?', @p10='?', @p11='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"AspNetRoles\" (\"Id\", \"ConcurrencyStamp\", \"Name\", \"NormalizedName\")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO \"AspNetRoles\" (\"Id\", \"ConcurrencyStamp\", \"Name\", \"NormalizedName\")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO \"AspNetRoles\" (\"Id\", \"ConcurrencyStamp\", \"Name\", \"NormalizedName\")
+VALUES (@p8, @p9, @p10, @p11);"
+2023-07-15 12:14:17.129 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("26"ms) [Parameters=["@p0='?' (DbType = Int64), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = Int64), @p5='?', @p6='?', @p7='?', @p8='?' (DbType = Int64), @p9='?', @p10='?', @p11='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"AspNetRoles\" (\"Id\", \"ConcurrencyStamp\", \"Name\", \"NormalizedName\")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO \"AspNetRoles\" (\"Id\", \"ConcurrencyStamp\", \"Name\", \"NormalizedName\")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO \"AspNetRoles\" (\"Id\", \"ConcurrencyStamp\", \"Name\", \"NormalizedName\")
+VALUES (@p8, @p9, @p10, @p11);"
+2023-07-15 12:14:17.137 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.138 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 8ms reading results.
+2023-07-15 12:14:17.143 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+2023-07-15 12:14:17.156 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+2023-07-15 12:14:17.158 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.159 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.160 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:14:17.169 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"IdentityRole"' tracked by '"DataContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.169 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"IdentityRole"' tracked by '"DataContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.169 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"IdentityRole"' tracked by '"DataContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.171 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] SaveChanges completed for '"DataContext"' with 3 entities written to the database.
+2023-07-15 12:14:17.172 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: "
+"'"DbSet<ApplicationUser>()
+    .Any()"'
+2023-07-15 12:14:17.174 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM AspNetUsers AS a)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Datings.Api.Data.DataContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()"'
+2023-07-15 12:14:17.174 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.174 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.174 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.174 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.175 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.175 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetUsers\" AS a)"
+2023-07-15 12:14:17.176 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetUsers\" AS a)"
+2023-07-15 12:14:17.176 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.176 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.176 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.176 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.295 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: "
+"'"DbSet<ApplicationUser>()
+    .FirstOrDefault(u => u.NormalizedUserName == __normalizedUserName_0)"'
+2023-07-15 12:14:17.352 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: "
+"'"queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ApplicationUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<ApplicationUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.FirstName (string) Required, 5], [Property: ApplicationUser.LastName (string) Required, 6], [Property: ApplicationUser.LockoutEnabled (bool) Required, 7], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 8], [Property: ApplicationUser.MiddleName (string), 9], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 10], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 11], [Property: ApplicationUser.NotificationsEnabled (bool) Required, 12], [Property: ApplicationUser.PasswordHash (string), 13], [Property: ApplicationUser.PhoneNumber (string), 14], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 15], [Property: ApplicationUser.Photo (string), 16], [Property: ApplicationUser.RefreshToken (string), 17], [Property: ApplicationUser.RefreshTokenExpiryTime (DateTime) Required, 18], [Property: ApplicationUser.SecurityStamp (string), 19], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 20], [Property: ApplicationUser.UserName (string) MaxLength(256), 21] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.MiddleName, a.NormalizedEmail, a.NormalizedUserName, a.NotificationsEnabled, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.Photo, a.RefreshToken, a.RefreshTokenExpiryTime, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ApplicationUser>, 
+        Datings.Api.Data.DataContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)"'
+2023-07-15 12:14:17.371 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.372 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.372 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.372 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.372 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.372 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedUserName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"ConcurrencyStamp\", a.\"Email\", a.\"EmailConfirmed\", a.\"FirstName\", a.\"LastName\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"MiddleName\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"NotificationsEnabled\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"RefreshToken\", a.\"RefreshTokenExpiryTime\", a.\"SecurityStamp\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1"
+2023-07-15 12:14:17.376 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"ConcurrencyStamp\", a.\"Email\", a.\"EmailConfirmed\", a.\"FirstName\", a.\"LastName\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"MiddleName\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"NotificationsEnabled\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"RefreshToken\", a.\"RefreshTokenExpiryTime\", a.\"SecurityStamp\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1"
+2023-07-15 12:14:17.381 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.381 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 4ms reading results.
+2023-07-15 12:14:17.381 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.381 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.408 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] '"DataContext"' generated a temporary value for the property '"Id"."ApplicationUser"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.464 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context '"DataContext"' started tracking '"ApplicationUser"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.464 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] SaveChanges starting for '"DataContext"'.
+2023-07-15 12:14:17.464 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges starting for '"DataContext"'.
+2023-07-15 12:14:17.480 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges completed for '"DataContext"'.
+2023-07-15 12:14:17.484 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.484 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.484 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.484 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.485 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.485 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?', @p17='?' (DbType = DateTime), @p18='?', @p19='?' (DbType = Boolean), @p20='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"AspNetUsers\" (\"AccessFailedCount\", \"ConcurrencyStamp\", \"Email\", \"EmailConfirmed\", \"FirstName\", \"LastName\", \"LockoutEnabled\", \"LockoutEnd\", \"MiddleName\", \"NormalizedEmail\", \"NormalizedUserName\", \"NotificationsEnabled\", \"PasswordHash\", \"PhoneNumber\", \"PhoneNumberConfirmed\", \"Photo\", \"RefreshToken\", \"RefreshTokenExpiryTime\", \"SecurityStamp\", \"TwoFactorEnabled\", \"UserName\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20)
+RETURNING \"Id\";"
+2023-07-15 12:14:17.495 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("10"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?', @p17='?' (DbType = DateTime), @p18='?', @p19='?' (DbType = Boolean), @p20='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"AspNetUsers\" (\"AccessFailedCount\", \"ConcurrencyStamp\", \"Email\", \"EmailConfirmed\", \"FirstName\", \"LastName\", \"LockoutEnabled\", \"LockoutEnd\", \"MiddleName\", \"NormalizedEmail\", \"NormalizedUserName\", \"NotificationsEnabled\", \"PasswordHash\", \"PhoneNumber\", \"PhoneNumberConfirmed\", \"Photo\", \"RefreshToken\", \"RefreshTokenExpiryTime\", \"SecurityStamp\", \"TwoFactorEnabled\", \"UserName\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20)
+RETURNING \"Id\";"
+2023-07-15 12:14:17.505 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property '"ApplicationUser"."Id"' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2023-07-15 12:14:17.508 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.508 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 12ms reading results.
+2023-07-15 12:14:17.508 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.508 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.511 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"ApplicationUser"' tracked by '"DataContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.511 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] SaveChanges completed for '"DataContext"' with 1 entities written to the database.
+2023-07-15 12:14:17.513 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: "
+"'"DbSet<ApplicationUser>()
+    .FirstOrDefault(x => x.Email == __email_0)"'
+2023-07-15 12:14:17.516 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: "
+"'"queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ApplicationUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<ApplicationUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUser.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ApplicationUser.AccessFailedCount (int) Required, 1], [Property: ApplicationUser.ConcurrencyStamp (string) Concurrency, 2], [Property: ApplicationUser.Email (string) MaxLength(256), 3], [Property: ApplicationUser.EmailConfirmed (bool) Required, 4], [Property: ApplicationUser.FirstName (string) Required, 5], [Property: ApplicationUser.LastName (string) Required, 6], [Property: ApplicationUser.LockoutEnabled (bool) Required, 7], [Property: ApplicationUser.LockoutEnd (DateTimeOffset?), 8], [Property: ApplicationUser.MiddleName (string), 9], [Property: ApplicationUser.NormalizedEmail (string) Index MaxLength(256), 10], [Property: ApplicationUser.NormalizedUserName (string) Index MaxLength(256), 11], [Property: ApplicationUser.NotificationsEnabled (bool) Required, 12], [Property: ApplicationUser.PasswordHash (string), 13], [Property: ApplicationUser.PhoneNumber (string), 14], [Property: ApplicationUser.PhoneNumberConfirmed (bool) Required, 15], [Property: ApplicationUser.Photo (string), 16], [Property: ApplicationUser.RefreshToken (string), 17], [Property: ApplicationUser.RefreshTokenExpiryTime (DateTime) Required, 18], [Property: ApplicationUser.SecurityStamp (string), 19], [Property: ApplicationUser.TwoFactorEnabled (bool) Required, 20], [Property: ApplicationUser.UserName (string) MaxLength(256), 21] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.FirstName, a.LastName, a.LockoutEnabled, a.LockoutEnd, a.MiddleName, a.NormalizedEmail, a.NormalizedUserName, a.NotificationsEnabled, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.Photo, a.RefreshToken, a.RefreshTokenExpiryTime, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.Email == @__email_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ApplicationUser>, 
+        Datings.Api.Data.DataContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)"'
+2023-07-15 12:14:17.517 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.517 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.517 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.517 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.517 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.517 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__email_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"ConcurrencyStamp\", a.\"Email\", a.\"EmailConfirmed\", a.\"FirstName\", a.\"LastName\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"MiddleName\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"NotificationsEnabled\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"RefreshToken\", a.\"RefreshTokenExpiryTime\", a.\"SecurityStamp\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"Email\" = @__email_0
+LIMIT 1"
+2023-07-15 12:14:17.519 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__email_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"ConcurrencyStamp\", a.\"Email\", a.\"EmailConfirmed\", a.\"FirstName\", a.\"LastName\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"MiddleName\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"NotificationsEnabled\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"RefreshToken\", a.\"RefreshTokenExpiryTime\", a.\"SecurityStamp\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"Email\" = @__email_0
+LIMIT 1"
+2023-07-15 12:14:17.522 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.522 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 2ms reading results.
+2023-07-15 12:14:17.522 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.522 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.529 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: "
+"'"DbSet<IdentityRole<long>>()
+    .SingleOrDefault(r => r.NormalizedName == __normalizedRoleName_0)"'
+2023-07-15 12:14:17.532 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: "
+"'"queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<IdentityRole<long>>(
+    asyncEnumerable: new SingleQueryingEnumerable<IdentityRole<long>>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityRole<long>.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: IdentityRole<long>.ConcurrencyStamp (string) Concurrency, 1], [Property: IdentityRole<long>.Name (string) MaxLength(256), 2], [Property: IdentityRole<long>.NormalizedName (string) Index MaxLength(256), 3] }
+            SELECT TOP(2) a.Id, a.ConcurrencyStamp, a.Name, a.NormalizedName
+            FROM AspNetRoles AS a
+            WHERE a.NormalizedName == @__normalizedRoleName_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, IdentityRole<long>>, 
+        Datings.Api.Data.DataContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)"'
+2023-07-15 12:14:17.533 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.533 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.533 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.533 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.533 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.533 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.535 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 1ms reading results.
+2023-07-15 12:14:17.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.537 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.554 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: "
+"'"DbSet<IdentityUserRole<long>>()
+    .FirstOrDefault(e => EF.Property<long>(e, \"UserId\") == __p_0 && EF.Property<long>(e, \"RoleId\") == __p_1)"'
+2023-07-15 12:14:17.562 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: "
+"'"queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<IdentityUserRole<long>>(
+    asyncEnumerable: new SingleQueryingEnumerable<IdentityUserRole<long>>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUserRole<long>.UserId (long) Required PK FK AfterSave:Throw, 0], [Property: IdentityUserRole<long>.RoleId (long) Required PK FK Index AfterSave:Throw, 1] }
+            SELECT TOP(1) a.UserId, a.RoleId
+            FROM AspNetUserRoles AS a
+            WHERE (a.UserId == @__p_0) && (a.RoleId == @__p_1)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, IdentityUserRole<long>>, 
+        Datings.Api.Data.DataContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)"'
+2023-07-15 12:14:17.564 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.564 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.564 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.564 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.564 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.565 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int64), @__p_1='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"UserId\", a.\"RoleId\"
+FROM \"AspNetUserRoles\" AS a
+WHERE a.\"UserId\" = @__p_0 AND a.\"RoleId\" = @__p_1
+LIMIT 1"
+2023-07-15 12:14:17.567 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int64), @__p_1='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"UserId\", a.\"RoleId\"
+FROM \"AspNetUserRoles\" AS a
+WHERE a.\"UserId\" = @__p_0 AND a.\"RoleId\" = @__p_1
+LIMIT 1"
+2023-07-15 12:14:17.568 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.568 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.568 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.568 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.572 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.572 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.572 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.573 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.573 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.573 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.575 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.575 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.575 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.575 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.576 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.589 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context '"DataContext"' started tracking '"IdentityUserRole"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.589 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.589 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.590 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.590 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.590 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.590 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.592 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.597 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.598 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.598 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.598 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.598 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.598 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int64), @__p_1='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"UserId\", a.\"RoleId\"
+FROM \"AspNetUserRoles\" AS a
+WHERE a.\"UserId\" = @__p_0 AND a.\"RoleId\" = @__p_1
+LIMIT 1"
+2023-07-15 12:14:17.600 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=["@__p_0='?' (DbType = Int64), @__p_1='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"UserId\", a.\"RoleId\"
+FROM \"AspNetUserRoles\" AS a
+WHERE a.\"UserId\" = @__p_0 AND a.\"RoleId\" = @__p_1
+LIMIT 1"
+2023-07-15 12:14:17.600 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.600 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.600 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.603 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.604 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.604 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.604 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.604 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.605 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context '"DataContext"' started tracking '"IdentityUserRole"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.605 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.605 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.606 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.606 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.606 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.606 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.608 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.608 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.608 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.609 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.609 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.610 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.610 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.610 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.610 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.610 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.610 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__p_0='?' (DbType = Int64), @__p_1='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"UserId\", a.\"RoleId\"
+FROM \"AspNetUserRoles\" AS a
+WHERE a.\"UserId\" = @__p_0 AND a.\"RoleId\" = @__p_1
+LIMIT 1"
+2023-07-15 12:14:17.612 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int64), @__p_1='?' (DbType = Int64)"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"UserId\", a.\"RoleId\"
+FROM \"AspNetUserRoles\" AS a
+WHERE a.\"UserId\" = @__p_0 AND a.\"RoleId\" = @__p_1
+LIMIT 1"
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.613 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.614 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.616 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__normalizedRoleName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"ConcurrencyStamp\", a.\"Name\", a.\"NormalizedName\"
+FROM \"AspNetRoles\" AS a
+WHERE a.\"NormalizedName\" = @__normalizedRoleName_0
+LIMIT 2"
+2023-07-15 12:14:17.616 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.616 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.616 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.616 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.617 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context '"DataContext"' started tracking '"IdentityUserRole"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.619 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.619 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.619 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.619 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.619 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.619 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@__normalizedUserName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"ConcurrencyStamp\", a.\"Email\", a.\"EmailConfirmed\", a.\"FirstName\", a.\"LastName\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"MiddleName\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"NotificationsEnabled\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"RefreshToken\", a.\"RefreshTokenExpiryTime\", a.\"SecurityStamp\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1"
+2023-07-15 12:14:17.621 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("2"ms) [Parameters=["@__normalizedUserName_0='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT a.\"Id\", a.\"AccessFailedCount\", a.\"ConcurrencyStamp\", a.\"Email\", a.\"EmailConfirmed\", a.\"FirstName\", a.\"LastName\", a.\"LockoutEnabled\", a.\"LockoutEnd\", a.\"MiddleName\", a.\"NormalizedEmail\", a.\"NormalizedUserName\", a.\"NotificationsEnabled\", a.\"PasswordHash\", a.\"PhoneNumber\", a.\"PhoneNumberConfirmed\", a.\"Photo\", a.\"RefreshToken\", a.\"RefreshTokenExpiryTime\", a.\"SecurityStamp\", a.\"TwoFactorEnabled\", a.\"UserName\"
+FROM \"AspNetUsers\" AS a
+WHERE a.\"NormalizedUserName\" = @__normalizedUserName_0
+LIMIT 1"
+2023-07-15 12:14:17.623 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.623 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.623 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.623 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.629 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"ApplicationUser"' tracked by '"DataContext"' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.629 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] SaveChanges starting for '"DataContext"'.
+2023-07-15 12:14:17.629 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges starting for '"DataContext"'.
+2023-07-15 12:14:17.629 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges completed for '"DataContext"'.
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] Executing 4 update commands as a batch.
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level '"Unspecified"'.
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level '"ReadCommitted"'.
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:14:17.644 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=["@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p27='?' (DbType = Int64), @p6='?' (DbType = Int32), @p7='?', @p28='?', @p8='?', @p9='?' (DbType = Boolean), @p10='?', @p11='?', @p12='?' (DbType = Boolean), @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?', @p20='?' (DbType = Boolean), @p21='?', @p22='?', @p23='?' (DbType = DateTime), @p24='?', @p25='?' (DbType = Boolean), @p26='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"AspNetUserRoles\" (\"RoleId\", \"UserId\")
+VALUES (@p0, @p1);
+INSERT INTO \"AspNetUserRoles\" (\"RoleId\", \"UserId\")
+VALUES (@p2, @p3);
+INSERT INTO \"AspNetUserRoles\" (\"RoleId\", \"UserId\")
+VALUES (@p4, @p5);
+UPDATE \"AspNetUsers\" SET \"AccessFailedCount\" = @p6, \"ConcurrencyStamp\" = @p7, \"Email\" = @p8, \"EmailConfirmed\" = @p9, \"FirstName\" = @p10, \"LastName\" = @p11, \"LockoutEnabled\" = @p12, \"LockoutEnd\" = @p13, \"MiddleName\" = @p14, \"NormalizedEmail\" = @p15, \"NormalizedUserName\" = @p16, \"NotificationsEnabled\" = @p17, \"PasswordHash\" = @p18, \"PhoneNumber\" = @p19, \"PhoneNumberConfirmed\" = @p20, \"Photo\" = @p21, \"RefreshToken\" = @p22, \"RefreshTokenExpiryTime\" = @p23, \"SecurityStamp\" = @p24, \"TwoFactorEnabled\" = @p25, \"UserName\" = @p26
+WHERE \"Id\" = @p27 AND \"ConcurrencyStamp\" = @p28;"
+2023-07-15 12:14:17.648 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p27='?' (DbType = Int64), @p6='?' (DbType = Int32), @p7='?', @p28='?', @p8='?', @p9='?' (DbType = Boolean), @p10='?', @p11='?', @p12='?' (DbType = Boolean), @p13='?' (DbType = DateTime), @p14='?', @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?', @p19='?', @p20='?' (DbType = Boolean), @p21='?', @p22='?', @p23='?' (DbType = DateTime), @p24='?', @p25='?' (DbType = Boolean), @p26='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"AspNetUserRoles\" (\"RoleId\", \"UserId\")
+VALUES (@p0, @p1);
+INSERT INTO \"AspNetUserRoles\" (\"RoleId\", \"UserId\")
+VALUES (@p2, @p3);
+INSERT INTO \"AspNetUserRoles\" (\"RoleId\", \"UserId\")
+VALUES (@p4, @p5);
+UPDATE \"AspNetUsers\" SET \"AccessFailedCount\" = @p6, \"ConcurrencyStamp\" = @p7, \"Email\" = @p8, \"EmailConfirmed\" = @p9, \"FirstName\" = @p10, \"LastName\" = @p11, \"LockoutEnabled\" = @p12, \"LockoutEnd\" = @p13, \"MiddleName\" = @p14, \"NormalizedEmail\" = @p15, \"NormalizedUserName\" = @p16, \"NotificationsEnabled\" = @p17, \"PasswordHash\" = @p18, \"PhoneNumber\" = @p19, \"PhoneNumberConfirmed\" = @p20, \"Photo\" = @p21, \"RefreshToken\" = @p22, \"RefreshTokenExpiryTime\" = @p23, \"SecurityStamp\" = @p24, \"TwoFactorEnabled\" = @p25, \"UserName\" = @p26
+WHERE \"Id\" = @p27 AND \"ConcurrencyStamp\" = @p28;"
+2023-07-15 12:14:17.648 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.648 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 0ms reading results.
+2023-07-15 12:14:17.649 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+2023-07-15 12:14:17.650 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+2023-07-15 12:14:17.650 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:14:17.650 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.650 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+2023-07-15 12:14:17.650 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"IdentityUserRole"' tracked by '"DataContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.651 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"IdentityUserRole"' tracked by '"DataContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.651 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"IdentityUserRole"' tracked by '"DataContext"' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.651 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type '"ApplicationUser"' tracked by '"DataContext"' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-07-15 12:14:17.651 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Update] SaveChanges completed for '"DataContext"' with 4 entities written to the database.
+2023-07-15 12:14:17.654 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] '"DataContext"' disposed.
+2023-07-15 12:14:17.655 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database '"datings-app"' on server '""'.
+2023-07-15 12:14:17.655 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:14:17.750 +03:00 [DEBUG] [Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-15 12:14:17.838 +03:00 [DEBUG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting starting
+2023-07-15 12:14:17.880 +03:00 [INFORMATION] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-15 12:14:17.885 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-1444d284-8899-42df-bacc-deb1d2071ea4.xml"'.
+2023-07-15 12:14:17.892 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-1a78a1ff-0f35-48d8-afb6-4b770c0ee164.xml"'.
+2023-07-15 12:14:17.893 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-2e789bc7-42ae-4626-9ddd-1740d76fe81a.xml"'.
+2023-07-15 12:14:17.893 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-30290ed9-5403-4236-82ac-c570ca8b12f3.xml"'.
+2023-07-15 12:14:17.893 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-3eb8895b-f603-461d-82d6-7ec59876840c.xml"'.
+2023-07-15 12:14:17.894 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-5142f444-6e43-43b5-963c-cb974c8345e0.xml"'.
+2023-07-15 12:14:17.894 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-6ad0f281-36ff-42bf-9cd3-1c41e9045dfe.xml"'.
+2023-07-15 12:14:17.895 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-78c84f29-6188-4e92-9970-b15b2eafc12d.xml"'.
+2023-07-15 12:14:17.895 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-9be66a3c-fbc1-42db-91c2-f9cf1ddd3418.xml"'.
+2023-07-15 12:14:17.901 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {1444d284-8899-42df-bacc-deb1d2071ea4}.
+2023-07-15 12:14:17.905 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {1a78a1ff-0f35-48d8-afb6-4b770c0ee164}.
+2023-07-15 12:14:17.906 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {2e789bc7-42ae-4626-9ddd-1740d76fe81a}.
+2023-07-15 12:14:17.906 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {30290ed9-5403-4236-82ac-c570ca8b12f3}.
+2023-07-15 12:14:17.906 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {3eb8895b-f603-461d-82d6-7ec59876840c}.
+2023-07-15 12:14:17.906 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {5142f444-6e43-43b5-963c-cb974c8345e0}.
+2023-07-15 12:14:17.906 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {6ad0f281-36ff-42bf-9cd3-1c41e9045dfe}.
+2023-07-15 12:14:17.906 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {78c84f29-6188-4e92-9970-b15b2eafc12d}.
+2023-07-15 12:14:17.906 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {9be66a3c-fbc1-42db-91c2-f9cf1ddd3418}.
+2023-07-15 12:14:17.913 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver] Considering key {2e789bc7-42ae-4626-9ddd-1740d76fe81a} with expiration date 2023-10-05 09:43:24Z as default key.
+2023-07-15 12:14:17.916 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2023-07-15 12:14:17.917 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor] Decrypting secret element using Windows DPAPI.
+2023-07-15 12:14:17.919 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2023-07-15 12:14:17.921 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2023-07-15 12:14:17.924 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2023-07-15 12:14:17.928 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider] Using key {2e789bc7-42ae-4626-9ddd-1740d76fe81a} as the default key.
+2023-07-15 12:14:17.929 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService] Key ring with default key {2e789bc7-42ae-4626-9ddd-1740d76fe81a} was loaded during application startup.
+2023-07-15 12:14:18.003 +03:00 [DEBUG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly "Datings.Api"
+2023-07-15 12:14:18.004 +03:00 [INFORMATION] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2023-07-15 12:14:18.004 +03:00 [INFORMATION] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+2023-07-15 12:14:18.004 +03:00 [INFORMATION] [Microsoft.Hosting.Lifetime] Content root path: "C:\Projects\Datings.Api\Datings.Api"
+2023-07-15 12:14:18.005 +03:00 [DEBUG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting started
+2023-07-15 12:14:18.052 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger - -
+2023-07-15 12:14:18.055 +03:00 [DEBUG] [Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware] Wildcard detected, all requests with hosts will be allowed.
+2023-07-15 12:14:18.105 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18230571327566118913"" disconnecting.
+2023-07-15 12:14:18.109 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/index.html - -
+2023-07-15 12:14:18.121 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger - - - 301 - - 70.2969ms
+2023-07-15 12:14:18.247 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/index.html - - - 200 - text/html;charset=utf-8 136.5402ms
+2023-07-15 12:14:18.247 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18374686489872171009"" disconnecting.
+2023-07-15 12:14:18.255 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/swagger-ui-bundle.js - -
+2023-07-15 12:14:18.255 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/swagger-ui.css - -
+2023-07-15 12:14:18.257 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/swagger-ui-standalone-preset.js - -
+2023-07-15 12:14:18.286 +03:00 [INFORMATION] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2023-07-15 12:14:18.286 +03:00 [INFORMATION] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2023-07-15 12:14:18.286 +03:00 [INFORMATION] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2023-07-15 12:14:18.296 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18230571327566118915"" disconnecting.
+2023-07-15 12:14:18.301 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/swagger-ui.css - - - 200 143943 text/css 45.0566ms
+2023-07-15 12:14:18.305 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18302628904424177665"" disconnecting.
+2023-07-15 12:14:18.306 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 48.8970ms
+2023-07-15 12:14:18.339 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18374686498462105604"" disconnecting.
+2023-07-15 12:14:18.339 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 85.0228ms
+2023-07-15 12:14:18.584 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/v1/swagger.json - -
+2023-07-15 12:14:18.601 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/favicon-32x32.png - -
+2023-07-15 12:14:18.603 +03:00 [INFORMATION] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2023-07-15 12:14:18.603 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/favicon-32x32.png - - - 200 628 image/png 2.3572ms
+2023-07-15 12:14:18.603 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18302628947373850628"" disconnecting.
+2023-07-15 12:14:18.733 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.4048ms
+2023-07-15 12:14:18.733 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18374686541411778566"" disconnecting.
+2023-07-15 12:23:28.478 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/index.html - -
+2023-07-15 12:23:28.480 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/index.html - - - 200 - text/html;charset=utf-8 1.6412ms
+2023-07-15 12:23:28.769 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/v1/swagger.json - -
+2023-07-15 12:23:28.778 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18302628904424177667"" disconnecting.
+2023-07-15 12:23:28.778 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.2730ms
