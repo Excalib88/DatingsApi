@@ -34,4 +34,5 @@ public class RegisterRequest
     public Gender? Gender { get; set; }
     public string? FindNow { get; set; }
     public List<string> Interests { get; set; } = new();
+    public List<string> Photos { get; set; } = new();
 }

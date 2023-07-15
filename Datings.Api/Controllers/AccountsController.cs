@@ -84,7 +84,15 @@ public class AccountsController : ControllerBase
             FirstName = request.FirstName,
             Email = request.Email, 
             UserName = request.Email,
-            PhoneNumber = request.Phone
+            PhoneNumber = request.Phone,
+            Gender = request.Gender,
+            InterestsData = string.Join('|', request.Interests),
+            BirthDate = request.BirthDate,
+            FindNow = request.FindNow,
+            Photos = request.Photos.Select(x => new UserPhoto
+            {
+                Data = x
+            }).ToList()
         };
         var result = await _userManager.CreateAsync(user, request.Password);
 

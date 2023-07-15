@@ -1596,3 +1596,142 @@ ORDER BY \"MigrationId\";"
 2023-07-15 12:53:44.410 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] '"DataContext"' disposed.
 2023-07-15 12:53:44.412 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database '"datings-app"' on server '""'.
 2023-07-15 12:53:44.415 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database '"datings-app"' on server '""' (2ms).
+2023-07-15 12:57:33.950 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-15 12:57:34.656 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'CategoryTagsId'}" was not created on entity type '"CategoryTagQuestion (Dictionary<string, object>)"' as the properties are already covered by the index "{'CategoryTagsId', 'QuestionsId'}".
+2023-07-15 12:57:34.659 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserRole<long>"' as the properties are already covered by the index "{'UserId', 'RoleId'}".
+2023-07-15 12:57:34.659 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model] The index "{'UserId'}" was not created on entity type '"IdentityUserToken<long>"' as the properties are already covered by the index "{'UserId', 'LoginProvider', 'Name'}".
+2023-07-15 12:57:34.777 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."CategoryTagsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:57:34.777 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Model.Validation] The property '"CategoryTagQuestion (Dictionary<string, object>)"."QuestionsId"' was created in shadow state because there are no eligible CLR members with a matching name.
+2023-07-15 12:57:34.971 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core "7.0.9" initialized '"DataContext"' using provider '"Npgsql.EntityFrameworkCore.PostgreSQL":"7.0.4+96806371445869d20be357993820cd4be366e145"' with options: "None"
+2023-07-15 12:57:34.979 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+2023-07-15 12:57:35.026 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (42ms).
+2023-07-15 12:57:35.027 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Migrations] Migrating using database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.045 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.159 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.160 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.170 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (5ms).
+2023-07-15 12:57:35.179 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteScalar"'.
+2023-07-15 12:57:35.185 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteScalar"' (6ms).
+2023-07-15 12:57:35.186 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteScalar"' (11ms).
+2023-07-15 12:57:35.187 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.234 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.241 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:57:35.282 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:57:35.283 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.285 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (1ms).
+2023-07-15 12:57:35.286 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.319 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.319 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.320 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:57:35.320 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteScalar"'.
+2023-07-15 12:57:35.320 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteScalar"' (0ms).
+2023-07-15 12:57:35.320 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteScalar"' (0ms).
+2023-07-15 12:57:35.320 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.321 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.321 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:57:35.322 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');"
+2023-07-15 12:57:35.322 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.323 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:57:35.334 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:57:35.335 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:57:35.335 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:57:35.335 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.335 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.335 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2023-07-15 12:57:35.338 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2023-07-15 12:57:35.343 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.345 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 5ms reading results.
+2023-07-15 12:57:35.345 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.346 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:57:35.371 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Migrations] No migrations were applied. The database is already up to date.
+2023-07-15 12:57:35.413 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: "
+"'"DbSet<IdentityRole<long>>()
+    .Any()"'
+2023-07-15 12:57:35.571 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM AspNetRoles AS a)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Datings.Api.Data.DataContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()"'
+2023-07-15 12:57:35.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for '"ExecuteReader"'.
+2023-07-15 12:57:35.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:57:35.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for '"ExecuteReader"' (0ms).
+2023-07-15 12:57:35.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.593 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetRoles\" AS a)"
+2023-07-15 12:57:35.594 +03:00 [INFORMATION] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT EXISTS (
+    SELECT 1
+    FROM \"AspNetRoles\" AS a)"
+2023-07-15 12:57:35.598 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.599 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for '"datings-app"' on server '"tcp://localhost:5433"' is being disposed after spending 3ms reading results.
+2023-07-15 12:57:35.599 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database '"datings-app"' on server '"tcp://localhost:5433"'.
+2023-07-15 12:57:35.599 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database '"datings-app"' on server '""' (0ms).
+2023-07-15 12:57:35.601 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Infrastructure] '"DataContext"' disposed.
+2023-07-15 12:57:35.603 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database '"datings-app"' on server '""'.
+2023-07-15 12:57:35.604 +03:00 [DEBUG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database '"datings-app"' on server '""' (1ms).
+2023-07-15 12:57:35.683 +03:00 [DEBUG] [Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-15 12:57:35.764 +03:00 [DEBUG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting starting
+2023-07-15 12:57:35.799 +03:00 [INFORMATION] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-15 12:57:35.804 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-1444d284-8899-42df-bacc-deb1d2071ea4.xml"'.
+2023-07-15 12:57:35.810 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-1a78a1ff-0f35-48d8-afb6-4b770c0ee164.xml"'.
+2023-07-15 12:57:35.811 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-2e789bc7-42ae-4626-9ddd-1740d76fe81a.xml"'.
+2023-07-15 12:57:35.811 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-30290ed9-5403-4236-82ac-c570ca8b12f3.xml"'.
+2023-07-15 12:57:35.811 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-3eb8895b-f603-461d-82d6-7ec59876840c.xml"'.
+2023-07-15 12:57:35.811 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-5142f444-6e43-43b5-963c-cb974c8345e0.xml"'.
+2023-07-15 12:57:35.811 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-6ad0f281-36ff-42bf-9cd3-1c41e9045dfe.xml"'.
+2023-07-15 12:57:35.812 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-78c84f29-6188-4e92-9970-b15b2eafc12d.xml"'.
+2023-07-15 12:57:35.812 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file '"C:\Users\rave9\AppData\Local\ASP.NET\DataProtection-Keys\key-9be66a3c-fbc1-42db-91c2-f9cf1ddd3418.xml"'.
+2023-07-15 12:57:35.817 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {1444d284-8899-42df-bacc-deb1d2071ea4}.
+2023-07-15 12:57:35.821 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {1a78a1ff-0f35-48d8-afb6-4b770c0ee164}.
+2023-07-15 12:57:35.822 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {2e789bc7-42ae-4626-9ddd-1740d76fe81a}.
+2023-07-15 12:57:35.822 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {30290ed9-5403-4236-82ac-c570ca8b12f3}.
+2023-07-15 12:57:35.822 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {3eb8895b-f603-461d-82d6-7ec59876840c}.
+2023-07-15 12:57:35.822 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {5142f444-6e43-43b5-963c-cb974c8345e0}.
+2023-07-15 12:57:35.822 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {6ad0f281-36ff-42bf-9cd3-1c41e9045dfe}.
+2023-07-15 12:57:35.822 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {78c84f29-6188-4e92-9970-b15b2eafc12d}.
+2023-07-15 12:57:35.822 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {9be66a3c-fbc1-42db-91c2-f9cf1ddd3418}.
+2023-07-15 12:57:35.829 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver] Considering key {2e789bc7-42ae-4626-9ddd-1740d76fe81a} with expiration date 2023-10-05 09:43:24Z as default key.
+2023-07-15 12:57:35.832 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2023-07-15 12:57:35.833 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor] Decrypting secret element using Windows DPAPI.
+2023-07-15 12:57:35.834 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2023-07-15 12:57:35.836 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2023-07-15 12:57:35.840 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2023-07-15 12:57:35.844 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider] Using key {2e789bc7-42ae-4626-9ddd-1740d76fe81a} as the default key.
+2023-07-15 12:57:35.845 +03:00 [DEBUG] [Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService] Key ring with default key {2e789bc7-42ae-4626-9ddd-1740d76fe81a} was loaded during application startup.
+2023-07-15 12:57:35.900 +03:00 [DEBUG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly "Datings.Api"
+2023-07-15 12:57:35.901 +03:00 [INFORMATION] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2023-07-15 12:57:35.901 +03:00 [INFORMATION] [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+2023-07-15 12:57:35.901 +03:00 [INFORMATION] [Microsoft.Hosting.Lifetime] Content root path: "C:\Projects\Datings.Api\Datings.Api"
+2023-07-15 12:57:35.901 +03:00 [DEBUG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting started
+2023-07-15 12:57:35.941 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/index.html - -
+2023-07-15 12:57:35.944 +03:00 [DEBUG] [Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware] Wildcard detected, all requests with hosts will be allowed.
+2023-07-15 12:57:36.090 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18302628921604046851"" disconnecting.
+2023-07-15 12:57:36.092 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/index.html - - - 200 - text/html;charset=utf-8 151.7292ms
+2023-07-15 12:57:36.250 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:44306/swagger/v1/swagger.json - -
+2023-07-15 12:57:36.393 +03:00 [DEBUG] [Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer] Connection ID ""18302628921604046853"" disconnecting.
+2023-07-15 12:57:36.393 +03:00 [INFORMATION] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:44306/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 143.2282ms
