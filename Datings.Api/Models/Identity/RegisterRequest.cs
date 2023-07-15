@@ -1,12 +1,14 @@
 using System.ComponentModel.DataAnnotations;
+using Datings.Api.Data.Entities;
 
 namespace Datings.Api.Models.Identity;
 
 public class RegisterRequest
 {
-    [Display(Name = "Email")] [Required] public string Email { get; set; } = null!;
+    [Required]
+    [Display(Name = "Email")]
+    public string Email { get; set; } = null!;
     
-    [Required] 
     [Display(Name = "Phone")] 
     public string Phone { get; set; } = null!;
  
@@ -29,10 +31,7 @@ public class RegisterRequest
     [Display(Name = "Имя")]
     public string FirstName { get; set; } = null!;
     
-    [Required]
-    [Display(Name = "Фамилия")]
-    public string LastName { get; set; } = null!;
-    
-    [Display(Name = "Отчество")]
-    public string? MiddleName { get; set; }
+    public Gender? Gender { get; set; }
+    public string? FindNow { get; set; }
+    public List<string> Interests { get; set; } = new();
 }
